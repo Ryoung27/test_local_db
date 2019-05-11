@@ -5,10 +5,16 @@
 
 import pymysql
 import config
-import player_info
+import player_info_two
 
 def player_name():
-    print(player_info.Player_info['name'])
+    if player_info_two.player_info.Player_one['name'] == 'Random':
+        print(player_info_two.player_info.Player_one['name'])
+    else:
+        print("No thanks")
+
+    if player_info_two.player_info.Player_one['name'] != 'Ranom':
+        print("Sorry Charlie")
 
 def connect_db(dbname):
     print("Test")
@@ -23,3 +29,4 @@ def connect_db(dbname):
 
 connect_db('company')
 player_name()
+# count()

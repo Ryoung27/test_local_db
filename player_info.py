@@ -6,6 +6,20 @@
 #     'port': 3306
 # }
 
-Player_info = {
+Player_one = {
+    'name': "Random"
+}
+
+Player_one = {
+    'name': "Random"
+}
+
+Player_one = {
+    'name': "Random"
+}
+Player_one = {
+    'name': "Random"
+}
+Player_one = {
     'name': "Random"
 }
